@@ -1,18 +1,15 @@
 # Pocket Terminal
 
 <p>
+  <a href="https://pocket-terminal-concept.pages.dev/"><img src="https://img.shields.io/badge/Live_Demo-F38020?style=flat&logo=cloudflare&logoColor=white" alt="Live Demo" /></a>
   <img src="https://img.shields.io/badge/Svelte-5.56-FF3E00?style=flat&logo=svelte&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-6.0-3178C6?style=flat&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/Hugging_Face_Transformers-4.2-FCC624?style=flat&logo=huggingface&logoColor=white" />
   <img src="https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat&logo=onnx&logoColor=white" />
-  <a href="LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-8A8A8A?style=flat&logo=github&logoColor=white" />
-  </a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-8A8A8A?style=flat&logo=github&logoColor=white" /></a>
 </p>
 
 ![Pocket Terminal preview](./docs/preview.png)
-
-<!-- TODO: replace with a screenshot or GIF of the device in use -->
 
 **Visual and interactive concept / prototype.** A personal terminal in the form of a portable device (a "pocket device"), rendered entirely in the browser. It is not an emulator or a general-purpose functional app: it's a UX and design exploration studying what it would be like to embed a terminal GUI in a physical pocket gadget (housing, navigation rail, and glass screen) using only web technologies.
 
