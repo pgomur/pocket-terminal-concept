@@ -20,11 +20,13 @@ Each app behaves like a terminal session, with its own prompt (`pgomur@iphone ~ 
 
 ## Apps
 
-- **Chat**: Qwen3-0.6B running 100% in your browser on WebGPU (or WASM as a fallback), with no server and no external API. The model downloads only when you ask for it and stays cached for later visits, replies stream token by token and an optional thinking mode reasons before answering. Type `/help` to see every command.
+- **Chat**: Qwen3-0.6B running 100% in your browser on WebGPU (or WASM as a fallback), with no server behind it. The model downloads only when you ask for it and stays cached for later visits, replies stream token by token and an optional thinking mode reasons before answering. Type `/help` to see every command.
 - **Clock**: a drift-free clock with day, week, month and year progress bars, ISO week number, day of year and Unix time.
 - **Bitcoin**: live price and 24h metrics from CoinGecko with a 7-day chart drawn on the terminal's character grid, refreshed every minute.
 - **Life**: Conway's Game of Life that keeps itself alive — rotating seeds, cycle and stagnation detection, and live metrics including Shannon entropy.
 - **System**: the real device and browser behind the screen: OS, browser, GPU, CPU cores, memory, screen, WebGPU support and more.
+
+Nothing you type leaves your device. The only network requests are the chat model and its runtime (from Hugging Face and jsDelivr) and the Bitcoin data (from CoinGecko).
 
 ## Themes and 3D view
 
